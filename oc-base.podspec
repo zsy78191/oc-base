@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "oc-base"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "本地基础库"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://gitee.com/zsy78191/oc-base.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zsy78191/oc-base.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
