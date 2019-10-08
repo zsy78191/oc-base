@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "oc-base"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "本地基础库"
 
   # This description is used to generate tags and improve search results.
@@ -136,7 +136,7 @@ Pod::Spec.new do |s|
   s.dependency 'ReactiveObjC'
   s.dependency 'MagicalRecord'
   s.dependency 'RegexKitLite'
-  s.dependency 'YYKit'
+  # s.dependency 'YYKit'
   s.dependency 'MGJRouter'
 
 end
